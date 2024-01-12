@@ -17,7 +17,7 @@ html, body {
   position: relative;
   width: 240px;
   height: 208px;
-  background: url(/static/images/map.png) no-repeat no-repeat;
+  background: url(images/map.png) no-repeat no-repeat;
   transform: scale(3);
   image-rendering: pixelated;
 }
@@ -93,12 +93,12 @@ button:active {
   left: 5px;
   width: 7px;
   height: 5px;
-  background: url(/static/images/arrow.png) no-repeat no-repeat;
+  background: url(images/arrow.png) no-repeat no-repeat;
 }
 .Character_sprite {
   overflow: hidden;
   top: -3px;
-  background: url(/static/images/characters.png);
+  background: url(images/characters.png);
 }
 .Character[data-direction="right"] .Character_sprite {
   background-position-x: 16px;
@@ -119,7 +119,7 @@ button:active {
   background-position-y: -80px;
 }
 .Character_shadow {
-  background: url(/static/images/shadow.png) no-repeat no-repeat;
+  background: url(images/shadow.png) no-repeat no-repeat;
 }
 
 .Character_name-container {
